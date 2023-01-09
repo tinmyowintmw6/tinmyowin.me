@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    fetch('http://tinmyowin.me.testwunder.luckychanthar.com/wp-json/wl/v1/posts')
+    fetch('https://tinmyowin.me.testwunder.luckychanthar.com/wp-json/wl/v1/posts')
       .then((response) => response.json())
       .then((data) => setPosts(data));
   })
