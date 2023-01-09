@@ -99,7 +99,7 @@ const AboutMe = () => {
                 <Box sx={item}>
                   <Box
                     component="img"
-                    src="../tinmyowin.jpg"
+                    src="../tinmyowin.JPG"
                     alt="tinmyowin"
                     sx={{ width: '300px', borderRadius: '5px' }}
                   />
