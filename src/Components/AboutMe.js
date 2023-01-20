@@ -57,7 +57,7 @@ const AboutMe = () => {
                   <Typography variant="body1" sx={{ my: 5, fontSize: 'clamp(12px, 8vw, 16px)', color: '#8892b0' }}>
                     Web Developer with over 6-years of experience in the development of innovative static
                     and
-                    dynamic websites using .Additional Knowledge in
+                    dynamic websites .Additional Knowledge in
                     the use
                     of PHP and Mysql to allow clients to update content of their websites .Very strong
                     organizational,presentational, and communication skills to help plan out and pitch
