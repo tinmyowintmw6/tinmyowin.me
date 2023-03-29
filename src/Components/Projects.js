@@ -112,7 +112,7 @@ const Project = (props) => {
                       <Box className='project-title' >
                         <a href={item.project_links} target='_blank'>
                           <Typography variant='h3' sx={{ color: '#ccd6f6', margin: '0px 0px 10px', fontSize: '18px', textDecoration: 'none', fontWeight: '700' }}>
-                            {item.title}
+                            {item.webTitle}
                           </Typography>
                         </a>
                       </Box>
