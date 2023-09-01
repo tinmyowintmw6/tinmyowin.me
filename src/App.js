@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    fetch('http://52.77.234.24/wp-json/wl/v1/posts')
+    fetch('https://tinmyowin.site/wp-json/wl/v1/posts')
       .then((response) => response.json())
       .then((data) => setPosts(data));
   })
