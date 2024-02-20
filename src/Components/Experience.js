@@ -186,7 +186,7 @@ export default function VerticalTabs() {
               <Typography variant='subtitle1'
                 component='span'
               >
-                June 2023 - December 2023
+                May 2023 - December 2023
               </Typography>
             </ThemeProvider>
             <Box sx={{ color: '#8892b0' }}>
