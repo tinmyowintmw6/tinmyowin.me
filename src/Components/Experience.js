@@ -169,9 +169,9 @@ export default function VerticalTabs() {
               }}
 
             >
-              <Tab label="Super Seven Stars" {...a11yProps(0)} />
-              <Tab label="Datalink Technology" {...a11yProps(1)} />
-              <Tab label="Media Lane" {...a11yProps(2)} />
+              <Tab label="TINL" {...a11yProps(0)} />
+              <Tab label="Super Seven Stars" {...a11yProps(1)} />
+              <Tab label="Datalink Technology" {...a11yProps(2)} />
               <Tab label="Media Lane" {...a11yProps(3)} />
 
             </Tabs>
