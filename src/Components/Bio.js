@@ -85,7 +85,7 @@ const BioMain = () => {
             variant="h1"
             sx={{ flexGrow: 1, fontSize: 'clamp(40px, 8vw, 80px)' }}
           >
-            Tin Myo Win.
+            Tin Myo Win (Eric).
           </Typography>
         </Box>
         <Box>

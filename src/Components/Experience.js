@@ -192,9 +192,9 @@ export default function VerticalTabs() {
             <Box sx={{ color: '#8892b0' }}>
               <ul className='list-details'>
                 <li>Web domain and server set-up / admin. E.g. cPanel, AWS, DNS, SSL, etc.</li>
-                <li>Developed a custom shopping cart system to receive a transaction from customers which can be viewed from a custom-made Content Management System made for the clients</li>
+                <li>Developed a custom shopping cart system to receive a transaction from customers which can be viewed from a custom-made Content Management System made for the clients.</li>
                 <li>Develop a flexible and well-structured front-end architecture.</li>
-                <li>Provide ongoing support, maintenance and troubleshooting of applications.</li>
+                <li>Provided ongoing support, maintenance and troubleshooting of applications.</li>
                 <li>Conduct user training on using applications & provide user guides / documentation.</li>
                 <li>Developed project scope and create concepts.</li>
                 <li>Learn and understand user interactions.</li>
