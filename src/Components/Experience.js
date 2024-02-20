@@ -86,7 +86,7 @@ const tabTheme = createTheme({
           position: 'inherit',
         },
 
-        flexContainer	: {
+        flexContainer: {
           [theme.breakpoints.down('sm')]: {
             display: 'block',
             overflowX: 'auto',
@@ -165,7 +165,8 @@ export default function VerticalTabs() {
               onChange={handleChange}
               aria-label="Vertical tabs example"
               sx={{
-                borderLeft: 2, borderColor: '#8892b0'}}
+                borderLeft: 2, borderColor: '#8892b0'
+              }}
 
             >
               <Tab label="Super Seven Stars" {...a11yProps(0)} />
@@ -178,13 +179,36 @@ export default function VerticalTabs() {
 
         <AnimationOnScroll animateIn="animate__fadeInDown">
           <TabPanel value={value} index={0}>
+            Wordpress Developer (Remote)
+            <a href='https://thereisnolack.com/' className='panelLink'> @ TINL </a><br></br>
+            <ThemeProvider theme={theme}>
+              <Typography variant='subtitle1'
+                component='span'
+              >
+                June 2023 - December 2023
+              </Typography>
+            </ThemeProvider>
+            <Box sx={{ color: '#8892b0' }}>
+              <ul className='list-details'>
+                <li>Web domain and server set-up / admin. E.g. cPanel, AWS, DNS, SSL, etc.</li>
+                <li>Developed a custom shopping cart system to receive a transaction from customers which can be viewed from a custom-made Content Management System made for the clients</li>
+                <li>Develop a flexible and well-structured front-end architecture.</li>
+                <li>Provide ongoing support, maintenance and troubleshooting of applications.</li>
+                <li>Conduct user training on using applications & provide user guides / documentation.</li>
+                <li>Developed project scope and create concepts.</li>
+                <li>Learn and understand user interactions.</li>
+              </ul>
+            </Box>
+
+          </TabPanel>
+          <TabPanel value={value} index={0}>
             Front-End Developer
             <a href='https://supersevenstars.com/' className='panelLink'> @ Super Seven Stars</a><br></br>
             <ThemeProvider theme={theme}>
               <Typography variant='subtitle1'
                 component='span'
               >
-                December 2020 - Present
+                December 2020 - April 2023
               </Typography>
             </ThemeProvider>
             <Box sx={{ color: '#8892b0' }}>
