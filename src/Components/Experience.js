@@ -172,6 +172,7 @@ export default function VerticalTabs() {
               <Tab label="Super Seven Stars" {...a11yProps(0)} />
               <Tab label="Datalink Technology" {...a11yProps(1)} />
               <Tab label="Media Lane" {...a11yProps(2)} />
+              <Tab label="Media Lane" {...a11yProps(3)} />
 
             </Tabs>
           </ThemeProvider>
@@ -201,7 +202,7 @@ export default function VerticalTabs() {
             </Box>
 
           </TabPanel>
-          <TabPanel value={value} index={0}>
+          <TabPanel value={value} index={1}>
             Front-End Developer
             <a href='https://supersevenstars.com/' className='panelLink'> @ Super Seven Stars</a><br></br>
             <ThemeProvider theme={theme}>
@@ -222,7 +223,7 @@ export default function VerticalTabs() {
             </Box>
 
           </TabPanel>
-          <TabPanel value={value} index={1}>
+          <TabPanel value={value} index={2}>
             Web Developer <a href='https://medialane.com.mm/' className='panelLink'> @ Datalink Technology</a><br></br>
             <ThemeProvider theme={theme}>
               <Typography variant='subtitle1'
@@ -241,7 +242,7 @@ export default function VerticalTabs() {
               </ul>
             </Box>
           </TabPanel>
-          <TabPanel value={value} index={2}>
+          <TabPanel value={value} index={3}>
             Web Developer <a href='https://datalink.com.mm' className='panelLink'> @ Media Lane</a><br></br>
             <ThemeProvider theme={theme}>
               <Typography variant='subtitle1'
